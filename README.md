@@ -1,14 +1,15 @@
 # Node.js Sample App
 
 Sample Node.js App integrating SAWO for authentication
-'''bash
+
+```bash
 git clone https://github.com/xrootms/nodejs-sample-app.git 
 
 docker build -t node-app .
 
 docker run -d --name cont3 -p 8000:8000 --env-file .env node-app
 
-'''
+```
 
 
 
@@ -106,4 +107,5 @@ app.listen("3000", console.log("Listening on port 3000."));
 ```
 
 ### Feel free to add your own styling and elements
+
 
